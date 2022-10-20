@@ -22,13 +22,9 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="234dp"
-        android:layout_height="192dp"
-        android:text="SIUUUUMMMMMM" />
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:contentDescription="TODO" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
